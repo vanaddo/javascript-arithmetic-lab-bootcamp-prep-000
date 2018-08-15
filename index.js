@@ -12,8 +12,19 @@ function subtract(a,b)
 
 function multiply(a,b)
 {
-  var result = a - b;
+  var result = a * b;
   return result;
+}
+
+function divide(a,b)
+{
+  var result = a / b;
+  return result;
+}
+function inc(n)
+{
+  
+  return ++n;
 }
 function preserveDecimal(n){
   return parseFloat(n)
