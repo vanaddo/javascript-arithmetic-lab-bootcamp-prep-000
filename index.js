@@ -33,6 +33,6 @@ function dec(n)
   return --n;
 }
 
-function preserveDecimal(n){
+function makeInt(n){
   return parseFloat(n)
 }
